@@ -1,0 +1,26 @@
+
+********** Reading Query **********
+
+Query read time :: 31ms
+dimension set :: [0, 1, 2, 3, 4]
+dimension set length :: 5
+Disk page size ::1024
+Pointer size ::4
+Key size ::8
+
+********** Query File loaded successfully **********
+
+**** Loading data into rtree *****
+Running time for Rtree:: 657ms
+**** Loaded data into rtree *****
+
+********** Start of BBS algorithm In-Memory implementation **********
+
+Generating skyline set with BBS algorithm
+Total number of object to object comparison :: 294
+Size of skyline set :: 13
+Running time for BBS:: 0ms
+Total Running time for Rtree+ BBS:: 657ms
+
+********** END of BBS algorithm implementation **********
+

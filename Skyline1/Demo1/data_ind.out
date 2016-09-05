@@ -1,0 +1,121 @@
+C:\Users\Swapnil\Desktop\Demo1>java -jar Skyline.jar data_ind.txt query_1.txt
+
+********** Reading Query **********
+
+Query read time :: 15ms
+Window size ::100
+dimension set :: [1, 2, 3, 4, 5, 6]
+dimension set length :: 6
+
+********** Query File loaded successfully **********
+
+Please check ouput at file :: data_ind.txt.out
+
+********** Start of BNL algorithm implementation **********
+
+Generating skyline set with BNL algorithm
+Total running time :: 17817ms
+Total tuple comparisons :: 6819231
+Size of skyline set :: 2534
+
+********** END of BNL algorithm implementation **********
+
+
+**********Start of SFS algorithm implementation **********
+
+Generating skyline set with SFS algorithm
+Total running time :: 27530ms
+Total tuple comparisons :: 4239292
+Size of skyline set :: 2534
+********** END of SFS algorithm implementation **********
+
+C:\Users\Swapnil\Desktop\Demo1>java -jar Skyline.jar data_ind.txt query_2.txt
+
+********** Reading Query **********
+
+Query read time :: 20ms
+Window size ::1000
+dimension set :: [1, 4, 5, 6]
+dimension set length :: 4
+
+********** Query File loaded successfully **********
+
+Please check ouput at file :: data_ind.txt.out
+
+********** Start of BNL algorithm implementation **********
+
+Generating skyline set with BNL algorithm
+Total running time :: 11796ms
+Total tuple comparisons :: 736665
+Size of skyline set :: 260
+
+********** END of BNL algorithm implementation **********
+
+
+**********Start of SFS algorithm implementation **********
+
+Generating skyline set with SFS algorithm
+Total running time :: 22639ms
+Total tuple comparisons :: 208289
+Size of skyline set :: 260
+********** END of SFS algorithm implementation **********
+C:\Users\Swapnil\Desktop\Demo1>java -jar Skyline.jar data_ind.txt query_3.txt
+
+********** Reading Query **********
+
+Query read time :: 16ms
+Window size ::10
+dimension set :: [2, 4, 5]
+dimension set length :: 3
+
+********** Query File loaded successfully **********
+
+Please check ouput at file :: data_ind.txt.out
+
+********** Start of BNL algorithm implementation **********
+
+Generating skyline set with BNL algorithm
+Total running time :: 12292ms
+Total tuple comparisons :: 159433
+Size of skyline set :: 71
+
+********** END of BNL algorithm implementation **********
+
+
+**********Start of SFS algorithm implementation **********
+
+Generating skyline set with SFS algorithm
+Total running time :: 22173ms
+Total tuple comparisons :: 108683
+Size of skyline set :: 71
+********** END of SFS algorithm implementation **********
+C:\Users\Swapnil\Desktop\Demo1>java -jar Skyline.jar data_ind.txt query_4.txt
+
+********** Reading Query **********
+
+Query read time :: 16ms
+Window size ::100000
+dimension set :: [1, 2, 3, 4, 5, 6]
+dimension set length :: 6
+
+********** Query File loaded successfully **********
+
+Please check ouput at file :: data_ind.txt.out
+
+********** Start of BNL algorithm implementation **********
+
+Generating skyline set with BNL algorithm
+Total running time :: 14211ms
+Total tuple comparisons :: 15512578
+Size of skyline set :: 2534
+
+********** END of BNL algorithm implementation **********
+
+
+**********Start of SFS algorithm implementation **********
+
+Generating skyline set with SFS algorithm
+Total running time :: 23558ms
+Total tuple comparisons :: 4239292
+Size of skyline set :: 2534
+********** END of SFS algorithm implementation **********

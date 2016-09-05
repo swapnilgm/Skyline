@@ -1,0 +1,545 @@
+Press Y on all server setup
+Waiting for incoming request at :: 0.0.0.0/0.0.0.0:7004
+y
+Enter query file path ::
+queries/query3.6.1.txt
+0    [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+0    [main] INFO  view.SiteUI  - K :: 5
+0    [main] INFO  view.SiteUI  - Parallism Degree :: 1
+0    [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+34   [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+21882 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+22784 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+22785 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 10732ms
+22785 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 22751ms
+22785 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+87326 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+88197 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+88197 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 24054ms
+88197 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 65412ms
+88197 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+133695 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+134447 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+134447 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 34135ms
+134447 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 46250ms
+134447 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+145867 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+147041 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+147041 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 12594ms
+Enter query file path ::
+queries/query3.6.2.txt
+155654 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+155654 [main] INFO  view.SiteUI  - K :: 5
+155654 [main] INFO  view.SiteUI  - Parallism Degree :: 2
+155654 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+155654 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+173558 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+174594 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+174594 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7245ms
+174594 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 18940ms
+174594 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+192663 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+193550 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+193550 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7478ms
+193550 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 18956ms
+193550 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+211294 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+212448 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+212448 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7374ms
+212448 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 18898ms
+212448 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+222906 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+223927 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+223927 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 11479ms
+Enter query file path ::
+queries/query3.6.3.txt
+229271 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+229271 [main] INFO  view.SiteUI  - K :: 5
+229287 [main] INFO  view.SiteUI  - Parallism Degree :: 3
+229287 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+229287 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+247215 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+248033 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+248033 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7488ms
+248036 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 18746ms
+248037 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+266016 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+266796 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+266796 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7564ms
+266796 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 18753ms
+266796 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+284802 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+285680 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+285680 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7407ms
+285681 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 18884ms
+285687 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+296316 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+297235 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+297235 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 11548ms
+Enter query file path ::
+queries/query3.6.4.txt
+302134 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+302155 [main] INFO  view.SiteUI  - K :: 5
+302155 [main] INFO  view.SiteUI  - Parallism Degree :: 4
+302155 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+302155 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+319949 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+320731 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+320731 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7576ms
+320731 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 18576ms
+320731 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+338899 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+339850 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+339850 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7402ms
+339866 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 19102ms
+339866 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+357695 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+358522 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+358522 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7264ms
+358523 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 18656ms
+358528 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+368799 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+369845 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+369845 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 11316ms
+Enter query file path ::
+queries/query3.6.10.txt
+414663 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+414694 [main] INFO  view.SiteUI  - K :: 5
+414694 [main] INFO  view.SiteUI  - Parallism Degree :: 10
+414694 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+414694 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+433899 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+434632 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+434632 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7449ms
+434632 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 19938ms
+434647 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+456740 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+457712 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+457712 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 8053ms
+457712 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 23065ms
+457712 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+480870 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+481841 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+481841 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 9287ms
+481841 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 24129ms
+481841 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+495641 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+496625 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+496625 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 14784ms
+Enter query file path ::
+queries/query3.6.1.txt
+623428 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+623428 [main] INFO  view.SiteUI  - K :: 5
+623444 [main] INFO  view.SiteUI  - Parallism Degree :: 1
+623444 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+623444 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+645271 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+646228 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+646228 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 8971ms
+646228 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 22784ms
+646244 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+668030 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+668936 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+668936 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 9134ms
+668937 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 22692ms
+668942 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+694665 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+695627 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+695627 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 10530ms
+695628 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 26684ms
+695633 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+708439 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+709271 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+709271 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 13637ms
+Enter query file path ::
+queries/query3.6.2.txt
+739419 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+739419 [main] INFO  view.SiteUI  - K :: 4
+739491 [main] INFO  view.SiteUI  - Parallism Degree :: 2
+739491 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+739491 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+756932 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 15097
+757079 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+757079 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7572ms
+757079 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 17588ms
+757079 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+774140 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 15097
+774255 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+774255 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7557ms
+774255 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 17176ms
+774271 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+791727 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 15097
+791827 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+791827 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7584ms
+791827 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 17556ms
+791827 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+801394 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14435
+801525 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+801525 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 9682ms
+Enter query file path ::
+queries/query3.6.2.txt
+823253 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+823253 [main] INFO  view.SiteUI  - K :: 4
+823271 [main] INFO  view.SiteUI  - Parallism Degree :: 1
+823271 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+823275 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+840240 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 15097
+840364 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+840364 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7480ms
+840364 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 17089ms
+840380 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+858495 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 15097
+858674 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+858674 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7619ms
+858674 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 18294ms
+858674 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+876029 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 15097
+876161 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+876161 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7531ms
+876161 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 17487ms
+876161 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+885827 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14435
+885927 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+885927 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 9766ms
+Enter query file path ::
+queries/query1.6.5.txt
+1005709 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+1005794 [main] INFO  view.SiteUI  - K :: 1
+1005810 [main] INFO  view.SiteUI  - Parallism Degree :: 5
+1005810 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+1005825 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+1023037 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14812
+1023052 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 0
+1023052 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7504ms
+1023068 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 17227ms
+1023068 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+1040285 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14797
+1040325 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+1040325 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7344ms
+1040326 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 17257ms
+1040331 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+1057743 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14797
+1057781 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+1057781 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7508ms
+1057781 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 17449ms
+1057781 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+1067526 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14153
+1067555 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+1067556 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 9775ms
+Enter query file path ::
+queries/query2.6.5.txt
+1260175 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+1260175 [main] INFO  view.SiteUI  - K :: 2
+1260175 [main] INFO  view.SiteUI  - Parallism Degree :: 5
+1260175 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+1260190 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+1277330 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14818
+1277359 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+1277359 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7459ms
+1277360 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 17169ms
+1277365 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+1294530 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14804
+1294545 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+1294545 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7566ms
+1294545 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 17179ms
+1294561 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+1311633 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14804
+1311648 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+1311648 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7633ms
+1311664 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 17087ms
+1311664 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+1321632 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14159
+1321649 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+1321649 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 9985ms
+Enter query file path ::
+queries/query3.6.5.txt
+1478108 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+1478108 [main] INFO  view.SiteUI  - K :: 5
+1478108 [main] INFO  view.SiteUI  - Parallism Degree :: 5
+1478124 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+1478124 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+1497086 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+1498084 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+1498084 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7658ms
+1498084 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 19960ms
+1498084 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+1515972 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+1516884 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+1516884 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7543ms
+1516885 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 18800ms
+1516886 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+1535065 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+1535946 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+1535946 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7492ms
+1535947 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 19055ms
+1535947 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+1546493 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+1547313 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+1547314 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 11361ms
+Enter query file path ::
+queries/query3.6.6.txt
+1636700 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+1636715 [main] INFO  view.SiteUI  - K :: 5
+1636715 [main] INFO  view.SiteUI  - Parallism Degree :: 6
+1636715 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+1636715 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+1655667 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+1656406 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+1656406 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7512ms
+1656406 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 19691ms
+1656406 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+1675695 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+1676451 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+1676451 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 8379ms
+1676452 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 20029ms
+1676453 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+1694970 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+1695703 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+1695703 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7963ms
+1695703 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 19245ms
+1695703 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+1706102 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+1706804 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+1706804 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 11085ms
+Enter query file path ::
+queries/query3.6.7.txt
+1775352 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+1775368 [main] INFO  view.SiteUI  - K :: 5
+1775368 [main] INFO  view.SiteUI  - Parallism Degree :: 7
+1775368 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+1775368 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+1793532 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+1794488 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+1794488 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7450ms
+1794488 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 19120ms
+1794488 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+1812336 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+1813220 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+1813220 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7225ms
+1813220 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 18732ms
+1813220 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+1831497 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+1832284 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+1832284 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7542ms
+1832284 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 19064ms
+1832284 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+1842763 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+1843618 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+1843618 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 11334ms
+Enter query file path ::
+queries/query3.6.8.txt
+1964106 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+1964106 [main] INFO  view.SiteUI  - K :: 5
+1964106 [main] INFO  view.SiteUI  - Parallism Degree :: 8
+1964106 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+1964106 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+1982101 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+1983040 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+1983040 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7346ms
+1983041 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 18934ms
+1983046 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+2001329 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+2002076 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+2002076 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7520ms
+2002077 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 19029ms
+2002078 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+2020082 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+2020853 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+2020853 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7697ms
+2020853 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 18770ms
+2020853 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+2031384 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+2032336 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+2032336 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 11483ms
+Enter query file path ::
+queries/query3.6.9.txt
+2115674 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+2115674 [main] INFO  view.SiteUI  - K :: 5
+2115674 [main] INFO  view.SiteUI  - Parallism Degree :: 9
+2115674 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+2115674 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+2133985 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+2134972 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+2134972 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7795ms
+2134987 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 19282ms
+2134987 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+2153002 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+2153732 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+2153732 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7515ms
+2153732 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 18745ms
+2153732 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+2173601 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+2174749 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+2174749 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7872ms
+2174749 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 21002ms
+2174749 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+2185817 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+2186810 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+2186811 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 12062ms
+Enter query file path ::
+queries/query3.6.10.txt
+2233435 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+2233435 [main] INFO  view.SiteUI  - K :: 5
+2233435 [main] INFO  view.SiteUI  - Parallism Degree :: 10
+2233435 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+2233435 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+2251824 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+2252626 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+2252626 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7781ms
+2252626 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 19191ms
+2252626 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+2271039 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+2271741 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+2271741 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7793ms
+2271741 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 19115ms
+2271741 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+2289889 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+2290575 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+2290575 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7386ms
+2290575 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 18834ms
+2290575 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+2300910 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+2301728 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+2301728 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 11153ms
+Enter query file path ::
+queries/query4.6.5.txt
+2353597 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+2353597 [main] INFO  view.SiteUI  - K :: 4
+2353597 [main] INFO  view.SiteUI  - Parallism Degree :: 5
+2353597 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+2353597 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+2371756 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 15097
+2371890 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+2371890 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7718ms
+2371891 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 18293ms
+2371892 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+2390137 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 15097
+2390268 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+2390268 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7842ms
+2390268 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 18374ms
+2390268 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+2408813 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 15097
+2408914 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+2408914 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 8334ms
+2408914 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 18646ms
+2408914 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+2418714 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14435
+2418851 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+2418851 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 9937ms
+Enter query file path ::
+queries/query5.6.5.txt
+2440665 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+2440669 [main] INFO  view.SiteUI  - K :: 5
+2440669 [main] INFO  view.SiteUI  - Parallism Degree :: 5
+2440669 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+2440669 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+2460310 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+2461059 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 44
+2461059 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 8556ms
+2461059 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 20390ms
+2461059 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+2481515 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+2482501 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+2482501 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 9342ms
+2482502 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 21425ms
+2482503 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+2500888 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14959
+2501804 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 42
+2501804 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7744ms
+2501804 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 19300ms
+2501804 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+2513229 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14549
+2513951 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 41
+2513952 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 12079ms
+Enter query file path ::
+queries/query6.6.5.txt
+2572970 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+2572970 [main] INFO  view.SiteUI  - K :: 6
+2572970 [main] INFO  view.SiteUI  - Parallism Degree :: 5
+2572970 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+2572970 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+2597403 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14755
+2612690 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 2534
+2612691 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7618ms
+2612691 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 39721ms
+2612692 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+2638445 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14755
+2652675 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 2466
+2652676 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 8196ms
+2652677 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 39978ms
+2652682 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+2678350 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14755
+2693061 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 2466
+2693061 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7966ms
+2693061 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 40378ms
+2693061 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+2710574 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14161
+2724379 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 2466
+2724379 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 31318ms
+Enter query file path ::
+queries/query4.6.5.txt
+3181649 [main] INFO  view.SiteUI  -
+********** Reading Query **********
+
+3181649 [main] INFO  view.SiteUI  - K :: 4
+3181664 [main] INFO  view.SiteUI  - Parallism Degree :: 5
+3181664 [main] INFO  view.SiteUI  - Query File loaded , query dimension set::[3, 2, 1, 6, 5, 4]
+3181664 [main] INFO  kdom.processor.QueryProcessor  - Executing proposed algo ::
+3198688 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 15097
+3198804 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+3198819 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7546ms
+3198819 [main] INFO  kdom.processor.QueryProcessor  - Proposed algo finished in time :: 17155ms
+3198819 [main] INFO  kdom.processor.QueryProcessor  - Executing modified proposed algo ::
+3216079 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 15097
+3216174 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+3216174 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7527ms
+3216175 [main] INFO  kdom.processor.QueryProcessor  - Modified Proposed algo finished in time :: 17355ms
+3216176 [main] INFO  kdom.processor.QueryProcessor  - Executing Enclosed area proposed algo ::
+3233706 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 15097
+3233860 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+3233860 [main] INFO  kdom.processor.QueryProcessor  - Forest build took time :: 7460ms
+3233860 [main] INFO  kdom.processor.QueryProcessor  - Modified Enclosed algo finished in time :: 17680ms
+3233860 [main] INFO  kdom.processor.QueryProcessor  - Executing modified naive algo ::
+3243668 [main] INFO  kdom.processor.QueryProcessor  - Total no. of messages transfered :: 14435
+3243784 [main] INFO  kdom.processor.QueryProcessor  - Final KDoms :: 1
+3243784 [main] INFO  kdom.processor.QueryProcessor  - Executed modified naive algo in time:: 9908ms
+Enter query file path ::
+queries/query4.6.5.txt

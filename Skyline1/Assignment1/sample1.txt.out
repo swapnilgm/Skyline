@@ -1,0 +1,18 @@
+
+********** Start of BNL algorithm implementation **********
+
+Generating skyline set with BNL algorithm
+Total running time :: 63ms
+Total tuple comparisons :: 4
+Size of skyline set :: 2
+
+********** END of BNL algorithm implementation **********
+
+
+**********Start of SFS algorithm implementation **********
+
+Generating skyline set with SFS algorithm
+Total running time :: 547ms
+Total tuple comparisons :: 3
+Size of skyline set :: 2
+********** END of SFS algorithm implementation **********

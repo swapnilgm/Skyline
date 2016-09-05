@@ -1,0 +1,30 @@
+C:\Users\Swapnil\Desktop\Demo1>java -jar Skyline.jar data_ant.txt query_2.txt
+
+********** Reading Query **********
+
+Query read time :: 0ms
+Window size ::1000
+dimension set :: [1, 4, 5, 6]
+dimension set length :: 4
+
+********** Query File loaded successfully **********
+
+Please check ouput at file :: data_ant.txt.out
+
+********** Start of BNL algorithm implementation **********
+
+Generating skyline set with BNL algorithm
+Total running time :: 12895ms
+Total tuple comparisons :: 5495170
+Size of skyline set :: 1237
+
+********** END of BNL algorithm implementation **********
+
+
+**********Start of SFS algorithm implementation **********
+
+Generating skyline set with SFS algorithm
+Total running time :: 23118ms
+Total tuple comparisons :: 1960092
+Size of skyline set :: 1237
+********** END of SFS algorithm implementation **********

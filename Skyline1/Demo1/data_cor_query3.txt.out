@@ -1,0 +1,30 @@
+C:\Users\Swapnil\Desktop\Demo1>java -jar Skyline.jar data_cor.txt query_3.txt
+
+********** Reading Query **********
+
+Query read time :: 15ms
+Window size ::10
+dimension set :: [2, 4, 5]
+dimension set length :: 3
+
+********** Query File loaded successfully **********
+
+Please check ouput at file :: data_cor.txt.out
+
+********** Start of BNL algorithm implementation **********
+
+Generating skyline set with BNL algorithm
+Total running time :: 12031ms
+Total tuple comparisons :: 156578
+Size of skyline set :: 21
+
+********** END of BNL algorithm implementation **********
+
+
+**********Start of SFS algorithm implementation **********
+
+Generating skyline set with SFS algorithm
+Total running time :: 22032ms
+Total tuple comparisons :: 100302
+Size of skyline set :: 21
+********** END of SFS algorithm implementation **********

@@ -1,0 +1,140 @@
+\documentclass[twocolumn]{article}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{times}
+\usepackage{fullpage}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\urlstyle{rm}
+
+\newcommand{\comment}[1]{}
+
+\algrenewcommand{\algorithmicrequire}{\textbf{Input:}}
+\algrenewcommand{\algorithmicensure}{\textbf{Output:}}
+\algrenewcommand{\algorithmicforall}{\textbf{for each}}
+
+\title{CS615: Group xx \\ Title of Project}
+\author{
+\begin{tabular}{cc}
+	Student Name 1 & Student Name 2 \\
+	Student Id 1 & Student Id 2 \\
+	Roll Number 1 & Roll Number 2 \\
+	\url{email1@iitk.ac.in} & \url{email2@iitk.ac.in} \\
+	Dept. of CSE & Dept. of XYZ \\
+	\multicolumn{2}{c}{Indian Institute of Technology, Kanpur}
+\end{tabular}
+}
+\date{Final report \\	% replace by ``initial'' or ``final'' as appropriate
+13th November, 2015}	% replace by actual date of submission or \today
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+	%
+	Abstract of the project.
+	%
+\end{abstract}
+
+\section{Introduction and Problem Statement}
+
+State the problem as clearly and as formally as possible.  Explain the
+notations, etc.  Explain the objectives, and all the inputs.  If possible,
+motivate why this is an interesting problem.
+
+\subsection{Related Material}
+
+Fill in all relevant work, datasets, websites, etc.
+
+\comment{
+
+Can also comment out paragraphs, etc.
+
+}
+
+\section{Algorithm or Approach}
+
+Details of the method.
+Put in a pseudo-code, etc. if applicable.
+
+\comment{
+
+\begin{algorithm}[t]
+	\caption{Indexing}
+	\label{alg:indexing}
+	\begin{algorithmic}[1]
+		\Require Database $D$, Query $Q$
+		\Ensure Result set $A$
+		\State $A \gets$ Search($Q$, $D$)
+		\State \Return $A$
+	\end{algorithmic}
+\end{algorithm}
+
+And refer as Algorithm \ref{alg:indexing}.
+
+}
+
+Explain with figures.
+
+\comment{
+
+Use the following format for figures:
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.95\columnwidth]{figure_file}
+	\caption{This figure explains this.}
+	\label{fig:block}
+\end{figure}
+
+And refer as Figure \ref{fig:block}.
+
+}
+
+\section{Results}
+
+Details of results, in tabular and/or graphical formats.
+
+More importantly, analyze the results.
+
+\comment{
+
+\begin{table}[t]
+	\centering
+	\begin{tabular}{|c||cc|}
+		\hline
+		Header 1 & Desc 1 & Desc 2 \\
+		\hline
+		\hline
+		Row 1 & Data 1-1 & Data 1-2 \\
+		Row 2 & Data 2-1 & Data 2-2 \\
+		\hline
+	\end{tabular}
+	\caption{Table of results.}
+	\label{tab:results}
+\end{table}
+
+And refer as Table \ref{tab:results}.
+
+}
+
+\section{Conclusions}
+
+Clearly state the conclusions.
+Outline the future work.
+
+\section*{References}
+
+Directly type in bib entries.
+
+Better is to use \emph{bibtex}.
+
+\end{document}
+
